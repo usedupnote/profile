@@ -12,6 +12,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "homepage": "https://usedupnote.github.io/profile/",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
