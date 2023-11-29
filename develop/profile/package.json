@@ -13,10 +13,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.69.5",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "homepage": "https://usedupnote.github.io/profile",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
