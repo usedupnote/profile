@@ -1,0 +1,22 @@
+@import "./styles/colors.scss";
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&family=Inconsolata:wght@300;400;500;600;700;800;900&display=swap");
+
+.App {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  text-align: center;
+  background-color: $brand1_main;
+}
+
+.Container {
+  min-height: 100vh;
+  background-color: $white;
+  box-shadow: 0 5px 5px $brand2;
+  max-width: 720px;
+  margin: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}

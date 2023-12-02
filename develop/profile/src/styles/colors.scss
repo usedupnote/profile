@@ -1,0 +1,56 @@
+/*색상 변수*/
+$background_main: #f6fafcff;
+$background_1: #dffaffff;
+$background_2: #c7f4ffff;
+
+/* black & white */
+$white: #ffffffff;
+$black: #000000ff;
+$transparent: #00000000;
+
+/* brand color */
+$brand1_main: #F9F5EAFF;
+$brand2: #C7B583FF;
+$brand3: #947F44FF;
+$brand4: #614E19FF;
+$brand5: #332603FF;
+
+/* font color */
+$font1: #F9F5EAFF;
+$font2: #C7B583FF;
+$font3: #947F44FF;
+$font4: #614E19FF;
+$font5_main: #332603FF;
+
+/*반응형 화면 크기*/
+$mobile: 767px;
+$tablet: 1023px;
+$desktop: 1024px;
+
+/*반응형, 브라우저 크기가 767px 이하일때*/
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+/*반응형, 브라우저 크기가 768이상, 1023px 이하일때*/
+@mixin tablet {
+  @media (min-width: $mobile+1) and (max-width: $tablet) {
+    @content;
+  }
+}
+
+/*반응형, 브라우저 크기가 1024px 이상일때*/
+@mixin desktop {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
+
+/*넓이, 높이 자동 계산함수*/
+@mixin square($size) {
+  $calculated: 32px * $size;
+  width: $calculated;
+  height: $calculated;
+}

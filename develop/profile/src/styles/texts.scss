@@ -1,0 +1,45 @@
+@import "./colors.scss";
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&family=Inconsolata:wght@300;400;500;600;700;800;900&display=swap");
+
+.Title {
+  color: $font5_main;
+  font-size: x-large;
+  margin-right: 12px;
+}
+
+.SubTitle {
+  color: $font4;
+  font-size: medium;
+}
+
+.Content {
+  font-size: small;
+  margin: 0;
+}
+
+.SubContent {
+  color: $font2;
+  font-size: small;
+  margin: 0;
+}
+
+
+.font1 {
+  color: $font1;
+}
+
+.font2 {
+  color: $font2;
+}
+
+.font3 {
+  color: $font3;
+}
+
+.font4 {
+  color: $font4;
+}
+
+.font5 {
+  color: $font5_main;
+}
